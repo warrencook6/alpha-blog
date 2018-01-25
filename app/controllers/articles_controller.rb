@@ -1,5 +1,6 @@
 class ArticlesController < ApplicationController
 
+  #Gets all of the articles
   def index
     @articles = Article.all
   end
@@ -13,6 +14,7 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
   end
 
+  #update article
   def update
     @article = Article.find(params[:id])
     if @article.update(article_params)
