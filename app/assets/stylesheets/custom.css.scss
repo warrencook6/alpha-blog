@@ -16,6 +16,10 @@ $navbar-default-bg: #08088A;
   text-decoration: none;
 }
 
+#nav-text {
+  color: white;
+}
+
 .center{
   text-align: center;
 }
@@ -46,6 +50,17 @@ $navbar-default-bg: #08088A;
 
 .description {
   margin-top: 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body{
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 footer {
